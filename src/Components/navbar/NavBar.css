@@ -74,6 +74,7 @@ section{
     display: flex;
     justify-content: center;
     font-size: 1.2rem;
+    text-decoration: none;
     cursor: pointer;
     
     /* vertical-align: middle; */
