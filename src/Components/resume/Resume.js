@@ -10,7 +10,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+  "https://raw.githubusercontent.com/ashishMECHA/my-portfolio/main/src/assets/Ashish_Thakur_Resume.pdf";
 
 //   const pdf = "https://drive.google.com/file/d/1X-5JvCI74yjPN-UYQeofBPNiGYdHVTCB/view?usp=sharing"
 
