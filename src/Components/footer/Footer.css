@@ -112,6 +112,7 @@ footer {
   flex-direction: column;
   padding: 20px 0px;
   background: rgb(0, 0, 15);
+  margin-top:60px;
 }
 
 p {

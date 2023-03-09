@@ -1,5 +1,6 @@
 import React from "react";
 import Particles from "react-tsparticles";
+import './navbar/NavBar.css'
 
 function Particle() {
   return (

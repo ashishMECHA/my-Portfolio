@@ -4,6 +4,7 @@ import Header2 from './header2'
 import Footer from '../footer/Footer'
 import Type from './TyperWriter'
 import NavBar from '../navbar/NavBar'
+import Particle from '../Particle'
 
 
 
@@ -11,7 +12,9 @@ export default function Header() {
   return (
     <>
     <NavBar/>
+    
     <header>
+    <Particle/>
             {/* <div className='header-inner-shadow'></div> */}
             
         <div>

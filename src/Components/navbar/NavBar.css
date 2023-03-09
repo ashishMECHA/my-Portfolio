@@ -45,6 +45,7 @@ section{
  /* }    */
 .icon{
     margin-right: 2px;
+border: 2px solid red;
 }
 .icon3{
    margin-top: 2px;
@@ -52,10 +53,15 @@ section{
 }
 .icon5{
     border:2px solid #fff;
+    color:#fff;
     border-radius: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
     margin-right: 2px;
+}
+.icon5:hover{
+    color: #1b1a2ea9;
+    transition: all 0.3s ease-out 0s;
 }
 .icon4{
     margin-top: 3px;
@@ -71,12 +77,19 @@ section{
 
  .navbar__item {
     /* padding: 16px 16px; */
+    color: #fff;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 1.2rem;
     text-decoration: none;
     cursor: pointer;
+    gap: 3px;
     
     /* vertical-align: middle; */
 } 
 
+.navbar__item:hover {
+    color: blueviolet;
+    transition: all 0.3s ease-out 0s;
+} 

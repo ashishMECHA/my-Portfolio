@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+ .container{
+position: relative;
+top: 4.5em;
+}
+
+
+.cont{
+  width: 380px;
+}
+
+
+.title{
+    font-size: 1.1em;
+    color: rgba(68, 67, 67, 0.911); 
+    padding-left: 1rem;
+}
+
+.heading{
+    color:#fff;
+    margin-bottom: 3rem;
+}
+.card-body{
+    display: flex;
+    gap:105px;
+   
+    margin-top: 8px;
+}
+.icons{
+    display: flex;
+    gap: 1rem;
+    font-size: .9rem; 
+    // border: 2px solid black; 
+}
+.icons a {
+  text-decoration: none; 
+  
+}
+.icons a:first-child{
+  color:rgba(19, 129, 124, 0.911);
+}
+.icons a:nth-child(2){
+  color:rgb(82, 165, 82)
+}
+
+.icons p{
+  color:rgba(24, 151, 145, 0.911);
+}
+
+.card-img-top{
+    padding-top: 10px;
+    background-size: cover;
+} 
+.techs{
+  color: rgb(22, 10, 10);
+  background: rgb(96, 165, 96);
+  font-size: .8rem;
+  padding-left: 3px;
+  padding-right: 3px;
+
+}
+.techStack{
+  display: flex;
+  gap: 10px;
+  padding-top: 6px;
+margin-left: 1rem;
+}

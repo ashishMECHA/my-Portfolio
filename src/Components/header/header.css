@@ -1,11 +1,20 @@
  header {
     height: 180vh;
-    background-image: url("/src/assets/home-bg.jpg");
+    /* background-image: url("/src/assets/home-bg.jpg"); */
+    background-color: black;
     background-repeat: no-repeat;
     background-size:300%;
     background-position: top center;
+    position:relative;
+    z-index: -1;
 }
-
+#tsparticles {
+    position: fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+  }
 /* .header-inner-shadow{
     top: 0;
     left: 0;

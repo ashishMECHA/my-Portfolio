@@ -12,17 +12,17 @@ function Footer() {
   // let date = new Date();
   // let year = date.getFullYear();
   return (
-    <footer>
+    <footer id="contact">
   <div class="social">
     <p>Follow me on social media</p>
     <ul class="wrapper">
-      <a href="#" target="_blank">
+      <a href="https://www.linkedin.com/in/ashish-thakur-065565217/" target="_blank">
         <li class="icon linkedin">
           <span class="tooltip">LinkedIn</span>
           <span><i class="fab fa-linkedin"></i></span>
         </li>
       </a>
-      <a href="#" target="_blank">
+      <a href="https://github.com/ashishMECHA" target="_blank">
         <li class="icon github">
           <span class="tooltip">GitHub</span>
           <span><i class="fab fa-github"></i></span>

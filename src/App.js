@@ -7,6 +7,8 @@ import {
   Route,
 } from "react-router-dom";
 import Projects from './Components/projects/Projects';
+import Resume from './Components/resume/Resume';
+import Skills from './Components/skills/Skills';
 
 
 
@@ -19,6 +21,9 @@ function App() {
       <Routes>
         <Route path="/" element = {<Header/>}/>
         <Route path="/projects" element = {<Projects/>}/>
+        <Route path="/resume" element = {<Resume/>}/>
+        <Route path="/about" element = {<Skills/>}/>
+
       </Routes>
     </BrowserRouter>
       
