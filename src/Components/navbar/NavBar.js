@@ -44,7 +44,7 @@ export default function NavBar() {
         <Link to="/projects" className='navbar__item'><BsLaptopFill/>Projects</Link>
         <Link to="/resume" className='navbar__item'><BsFillFileEarmarkSpreadsheetFill/>Resume</Link>
           <a href="#contact" className='navbar__item'><FaUser/>Contact</a>
-        <Link to="/" className='navbar__item'><div className='icon5'><BiGitRepoForked/></div></Link>
+        <Link to="https://github.com/ashishMECHA/my-portfolio" className='navbar__item'><div className='icon5'><BiGitRepoForked/></div></Link>
                 
     </div>
     </section>
